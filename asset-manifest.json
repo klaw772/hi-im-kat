@@ -1,23 +1,27 @@
 {
   "files": {
-    "main.css": "/hi-im-kat/static/css/main.5f361e03.chunk.css",
-    "main.js": "/hi-im-kat/static/js/main.de166105.chunk.js",
-    "main.js.map": "/hi-im-kat/static/js/main.de166105.chunk.js.map",
+    "main.css": "/hi-im-kat/static/css/main.fb2ed5ef.chunk.css",
+    "main.js": "/hi-im-kat/static/js/main.ccd019e2.chunk.js",
+    "main.js.map": "/hi-im-kat/static/js/main.ccd019e2.chunk.js.map",
     "runtime-main.js": "/hi-im-kat/static/js/runtime-main.c55b7369.js",
     "runtime-main.js.map": "/hi-im-kat/static/js/runtime-main.c55b7369.js.map",
-    "static/js/2.d5faa0f0.chunk.js": "/hi-im-kat/static/js/2.d5faa0f0.chunk.js",
-    "static/js/2.d5faa0f0.chunk.js.map": "/hi-im-kat/static/js/2.d5faa0f0.chunk.js.map",
+    "static/css/2.f3cffc9e.chunk.css": "/hi-im-kat/static/css/2.f3cffc9e.chunk.css",
+    "static/js/2.3b7f41ea.chunk.js": "/hi-im-kat/static/js/2.3b7f41ea.chunk.js",
+    "static/js/2.3b7f41ea.chunk.js.map": "/hi-im-kat/static/js/2.3b7f41ea.chunk.js.map",
     "index.html": "/hi-im-kat/index.html",
-    "precache-manifest.e8cd9fb8628df59eea4f0cdec6bf6bfc.js": "/hi-im-kat/precache-manifest.e8cd9fb8628df59eea4f0cdec6bf6bfc.js",
+    "precache-manifest.8a3c2660ec06288be145513ecd2c9966.js": "/hi-im-kat/precache-manifest.8a3c2660ec06288be145513ecd2c9966.js",
     "service-worker.js": "/hi-im-kat/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/hi-im-kat/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.d5faa0f0.chunk.js.LICENSE.txt": "/hi-im-kat/static/js/2.d5faa0f0.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/hi-im-kat/static/media/logo.5d5d9eef.svg"
+    "static/css/2.f3cffc9e.chunk.css.map": "/hi-im-kat/static/css/2.f3cffc9e.chunk.css.map",
+    "static/css/main.fb2ed5ef.chunk.css.map": "/hi-im-kat/static/css/main.fb2ed5ef.chunk.css.map",
+    "static/js/2.3b7f41ea.chunk.js.LICENSE.txt": "/hi-im-kat/static/js/2.3b7f41ea.chunk.js.LICENSE.txt",
+    "static/media/acquia.png": "/hi-im-kat/static/media/acquia.46b66266.png",
+    "static/media/ezcater.jpg": "/hi-im-kat/static/media/ezcater.f0b21340.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.c55b7369.js",
-    "static/js/2.d5faa0f0.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.de166105.chunk.js"
+    "static/css/2.f3cffc9e.chunk.css",
+    "static/js/2.3b7f41ea.chunk.js",
+    "static/css/main.fb2ed5ef.chunk.css",
+    "static/js/main.ccd019e2.chunk.js"
   ]
 }
