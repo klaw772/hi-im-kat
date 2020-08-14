@@ -24,7 +24,7 @@ export const ExperienceCarousel: FC<ExperienceCarouselProps> = ({
           alt="Acquia"
         />
 
-        <Carousel.Caption>
+        <Carousel.Caption className="d-none d-md-block">
           <h3>Acquia</h3>
           <p>May 2020 - Present</p>
         </Carousel.Caption>
@@ -36,7 +36,7 @@ export const ExperienceCarousel: FC<ExperienceCarouselProps> = ({
           src={ezcater_logo}
           alt="ezCater"
         />
-        <Carousel.Caption>
+        <Carousel.Caption className="d-none d-md-block">
           <h3>ezCater</h3>
           <p>July 2019 - April 2020</p>
         </Carousel.Caption>
