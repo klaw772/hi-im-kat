@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/hi-im-kat/static/css/main.5f361e03.chunk.css",
+    "main.js": "/hi-im-kat/static/js/main.de166105.chunk.js",
+    "main.js.map": "/hi-im-kat/static/js/main.de166105.chunk.js.map",
+    "runtime-main.js": "/hi-im-kat/static/js/runtime-main.c55b7369.js",
+    "runtime-main.js.map": "/hi-im-kat/static/js/runtime-main.c55b7369.js.map",
+    "static/js/2.d5faa0f0.chunk.js": "/hi-im-kat/static/js/2.d5faa0f0.chunk.js",
+    "static/js/2.d5faa0f0.chunk.js.map": "/hi-im-kat/static/js/2.d5faa0f0.chunk.js.map",
+    "index.html": "/hi-im-kat/index.html",
+    "precache-manifest.e8cd9fb8628df59eea4f0cdec6bf6bfc.js": "/hi-im-kat/precache-manifest.e8cd9fb8628df59eea4f0cdec6bf6bfc.js",
+    "service-worker.js": "/hi-im-kat/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/hi-im-kat/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.d5faa0f0.chunk.js.LICENSE.txt": "/hi-im-kat/static/js/2.d5faa0f0.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/hi-im-kat/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c55b7369.js",
+    "static/js/2.d5faa0f0.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.de166105.chunk.js"
+  ]
+}
