@@ -41,7 +41,7 @@ const NavBar: FC<NavBarProps> = ({ index }) => {
               Project Work
             </Nav.Link>
             <Nav.Link as={Link} to="/skills">
-              Skills
+              Skills/Technologies
             </Nav.Link>
             <Nav.Link href="https://github.com/klaw772/" target="_blank">
               GitHub
