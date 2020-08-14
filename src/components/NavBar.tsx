@@ -31,19 +31,19 @@ const NavBar: FC<NavBarProps> = ({ index }) => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link as="a" href="/about-kat">
+            <Nav.Link as={Link} to="/about-kat">
               About Kat
             </Nav.Link>
-            <Nav.Link as="a" href="/kat-work">
+            <Nav.Link as={Link} to="/kat-work">
               Work Experiences
             </Nav.Link>
-            <Nav.Link as="a" href="/project-index">
+            <Nav.Link as={Link} to="/project-index">
               Project Work
             </Nav.Link>
-            <Nav.Link as="a" href="/skills">
+            <Nav.Link as={Link} to="/skills">
               Skills
             </Nav.Link>
-            <Nav.Link as="a" href="https://github.com/klaw772/" target="_blank">
+            <Nav.Link href="https://github.com/klaw772/" target="_blank">
               GitHub
             </Nav.Link>
           </Nav>
