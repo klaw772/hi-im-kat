@@ -24,7 +24,7 @@ const NavBar: FC<NavBarProps> = ({ index }) => {
             "acquia-brand": index === 0,
             "ezcater-brand": index === 1,
           })}
-          href="/"
+          href="/hi-im-kat"
         >
           Home
         </Navbar.Brand>

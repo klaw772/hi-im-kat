@@ -8,10 +8,10 @@ export interface LanguagesProps {
 export const Languages: FC<LanguagesProps> = ({languageList}) => {
     return (
       <>
-        <h1 className="mt-5">Languages</h1>
-        <Row className="ml-3 d-flex justify-content-center align-items-center">
+        <h1 className="mt-5 d-flex justify-content-center">Languages</h1>
+        <Row className="d-flex justify-content-center align-items-center">
           {languageList.map((language) => (
-            <Col xs={6} sm={6} md={2} lg={2}>
+            <Col xs={6} sm={6} md={2} lg={2} className="d-flex justify-content-center">
               <SkillsIcon tech={language.language} title={language.title} />
             </Col>
           ))}

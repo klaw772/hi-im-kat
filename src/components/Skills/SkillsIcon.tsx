@@ -8,6 +8,11 @@ export interface SkillsIconProps {
 }
 export const SkillsIcon: FC<SkillsIconProps> = ({tech, title}) => {
     return (
-      <img className="hvr-bounce-in my-5" src={tech} alt={`${title}`} width="75%"/>
+        <img
+          className="hvr-bounce-in my-5"
+          src={tech}
+          alt={`${title}`}
+          width="75%"
+        />
     );
 }

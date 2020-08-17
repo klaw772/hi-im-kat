@@ -8,10 +8,16 @@ export interface LanguagesProps {
 export const Frameworks: FC<LanguagesProps> = ({ frameworkList }) => {
    return (
      <>
-       <h1>Frameworks</h1>
-       <Row className="ml-2 d-flex justify-content-center align-items-center">
+       <h1 className="d-flex justify-content-center">Frameworks</h1>
+       <Row className="d-flex justify-content-center align-items-center">
          {frameworkList.map((framework) => (
-           <Col xs={6} sm={6} md={2} lg={2}>
+           <Col
+             xs={6}
+             sm={6}
+             md={2}
+             lg={2}
+             className="d-flex justify-content-center"
+           >
              <SkillsIcon tech={framework.framework} title={framework.title} />
            </Col>
          ))}
