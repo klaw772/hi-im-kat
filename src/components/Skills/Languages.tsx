@@ -11,7 +11,13 @@ export const Languages: FC<LanguagesProps> = ({languageList}) => {
         <h1 className="mt-5 d-flex justify-content-center">Languages</h1>
         <Row className="d-flex justify-content-center align-items-center">
           {languageList.map((language) => (
-            <Col xs={6} sm={6} md={2} lg={2} className="d-flex justify-content-center">
+            <Col
+              xs={6}
+              sm={6}
+              md={2}
+              lg={2}
+              className="d-flex justify-content-center align-items-center"
+            >
               <SkillsIcon tech={language.language} title={language.title} />
             </Col>
           ))}

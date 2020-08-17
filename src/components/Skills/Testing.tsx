@@ -16,7 +16,7 @@ export const Testing: FC<TestingProps> = ({ testingList }) => {
              sm={6}
              md={2}
              lg={2}
-             className="d-flex justify-content-center"
+             className="d-flex justify-content-center align-items-center"
            >
              <SkillsIcon tech={test.test} title={test.title} />
            </Col>

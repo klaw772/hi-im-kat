@@ -16,7 +16,7 @@ export const Tools: FC<ToolsProps> = ({ toolList }) => {
              sm={6}
              md={2}
              lg={2}
-             className="d-flex justify-content-center"
+             className="d-flex justify-content-center align-items-center"
            >
              <SkillsIcon tech={tool.tool} title={tool.title} />
            </Col>

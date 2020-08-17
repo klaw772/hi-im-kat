@@ -16,7 +16,7 @@ export const Frameworks: FC<LanguagesProps> = ({ frameworkList }) => {
              sm={6}
              md={2}
              lg={2}
-             className="d-flex justify-content-center"
+             className="d-flex justify-content-center align-items-center"
            >
              <SkillsIcon tech={framework.framework} title={framework.title} />
            </Col>
