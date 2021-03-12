@@ -8,7 +8,9 @@ export interface SkillsIconProps {
   title: string;
 }
 const renderTooltip = (title: string) => (
-  <Tooltip id="button-tooltip">{title}</Tooltip>
+  <Tooltip id="button-tooltip" className="skills-tooltip">
+    {title}
+  </Tooltip>
 );
 export const SkillsIcon: FC<SkillsIconProps> = ({ tech, title }) => {
   return (

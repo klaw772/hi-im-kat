@@ -3,7 +3,8 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import "../styles/NavBar.css";
 import classNames from "classnames";
-import {Link} from 'react-router-dom';
+import { Link } from "react-router-dom";
+import cheese from "../assets/cheese2.png";
 
 export interface NavBarProps {
   index: number;
@@ -26,7 +27,7 @@ const NavBar: FC<NavBarProps> = ({ index }) => {
           })}
           href="/hi-im-kat"
         >
-          Home
+          <img src={cheese} alt="cheese-wedge" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
