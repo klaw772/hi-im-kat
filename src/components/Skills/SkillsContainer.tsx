@@ -15,6 +15,8 @@ import ruby from "../../assets/ruby.png";
 import travis from "../../assets/travis.png";
 import typescript from "../../assets/typescript.png";
 import rspec from "../../assets/rspec.png";
+import php from "../../assets/php.png";
+import docker from "../../assets/docker.png";
 
 import { Languages } from "./Languages";
 import { Frameworks } from "./Frameworks";
@@ -32,6 +34,7 @@ export const SkillsContainer: FC<SkillsContainerProps> = ({ setIndex }) => {
     { language: ruby, title: "Ruby" },
     { language: r, title: "R" },
     { language: python, title: "Python" },
+    { language: php, title: "PHP" },
   ];
   const frameworks: { framework: string; title: string }[] = [
     { framework: react, title: "React" },
@@ -48,6 +51,7 @@ export const SkillsContainer: FC<SkillsContainerProps> = ({ setIndex }) => {
     { tool: git, title: "Git" },
     { tool: jenkins, title: "Jenkins" },
     { tool: travis, title: "Travis" },
+    { tool: docker, title: "Docker" },
   ];
 
   useEffect(() => {

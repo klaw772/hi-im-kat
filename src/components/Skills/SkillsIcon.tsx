@@ -1,18 +1,24 @@
-import React, { FC } from 'react';
+import React, { FC } from "react";
+import { Tooltip, OverlayTrigger } from "react-bootstrap";
 
 import "../../styles/Skills/SkillsIcon.css";
 
 export interface SkillsIconProps {
-    tech: string;
-    title: string;
+  tech: string;
+  title: string;
 }
-export const SkillsIcon: FC<SkillsIconProps> = ({tech, title}) => {
-    return (
-        <img
-          className="hvr-bounce-in my-5"
-          src={tech}
-          alt={`${title}`}
-          width="75%"
-        />
-    );
-}
+const renderTooltip = (title: string) => (
+  <Tooltip id="button-tooltip">{title}</Tooltip>
+);
+export const SkillsIcon: FC<SkillsIconProps> = ({ tech, title }) => {
+  return (
+    <OverlayTrigger placement="top" overlay={renderTooltip(title)}>
+      <img
+        className="hvr-bounce-in my-5"
+        src={tech}
+        alt={`${title}`}
+        width="75%"
+      />
+    </OverlayTrigger>
+  );
+};
