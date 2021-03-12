@@ -1,4 +1,4 @@
-import React, { FC, useEffect } from "react";
+import React, { FC } from "react";
 
 import cypress from "../../assets/cypress.png";
 import git from "../../assets/git.png";
@@ -23,10 +23,7 @@ import { Frameworks } from "./Frameworks";
 import { Testing } from "./Testing";
 import { Tools } from "./Tools";
 
-export interface SkillsContainerProps {
-  setIndex: React.Dispatch<React.SetStateAction<number>>;
-}
-export const SkillsContainer: FC<SkillsContainerProps> = ({ setIndex }) => {
+export const SkillsContainer: FC<unknown> = () => {
   const languages: { language: string; title: string }[] = [
     { language: javascript, title: "JavaScript" },
     { language: typescript, title: "TypeScript" },
@@ -53,10 +50,6 @@ export const SkillsContainer: FC<SkillsContainerProps> = ({ setIndex }) => {
     { tool: travis, title: "Travis" },
     { tool: docker, title: "Docker" },
   ];
-
-  useEffect(() => {
-    setIndex(0);
-  }, [setIndex]);
 
   return (
     <>

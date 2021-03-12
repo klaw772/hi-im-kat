@@ -1,4 +1,4 @@
-import React, { FC, useState } from "react";
+import React, { FC } from "react";
 import { Switch, Route } from "react-router-dom";
 
 import NavBar from "./NavBar";
@@ -10,17 +10,11 @@ import "../styles/App.css";
 import { AboutOverview } from "./AboutKat/AboutOverview";
 
 const App: FC<unknown> = () => {
-  const [index, setIndex] = useState(0);
-
-  const handleSelect = (eventKey: number, event: object | null) => {
-    setIndex(eventKey);
-  };
-
   return (
     <div className="App">
       <section>
         <header className="App-header">
-          <NavBar index={index} />
+          <NavBar />
         </header>
       </section>
       <section>
@@ -32,16 +26,13 @@ const App: FC<unknown> = () => {
             <p>Project Index</p>
           </Route>
           <Route exact path="/about-kat">
-            <AboutOverview setIndex={setIndex} />
+            <AboutOverview />
           </Route>
           <Route exact path="/kat-work">
-            <WorkExperienceContainer
-              index={index}
-              handleSelect={handleSelect}
-            />
+            <WorkExperienceContainer />
           </Route>
           <Route exact path="/skills">
-            <SkillsContainer setIndex={setIndex} />
+            <SkillsContainer />
           </Route>
         </Switch>
       </section>

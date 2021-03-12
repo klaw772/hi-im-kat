@@ -5,17 +5,9 @@ import acquia_logo from "../../assets/acquia.png";
 
 import "../../styles/WorkExperience/ExperienceCarousel.css";
 
-export interface ExperienceCarouselProps {
-  index: number;
-  handleSelect: (eventKey: number, event: object | null) => void;
-}
-
-export const ExperienceCarousel: FC<ExperienceCarouselProps> = ({
-  index,
-  handleSelect,
-}) => {
+export const ExperienceCarousel: FC<unknown> = () => {
   return (
-    <Carousel activeIndex={index} onSelect={handleSelect}>
+    <Carousel>
       <Carousel.Item className="work-carousel-item">
         <img
           className="d-block w-100"
