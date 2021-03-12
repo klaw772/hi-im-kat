@@ -28,7 +28,7 @@ h1 {
 @keyframes fadeIn {
   0% {
     opacity: 0;
-    transform: translateY(50%);
+    transform: translateY(2%);
   }
   100% {
     opacity: 1;
@@ -38,7 +38,7 @@ h1 {
 @-moz-keyframes fadeIn {
   0% {
     opacity: 0;
-    transform: translateY(50%);
+    transform: translateY(2%);
   }
   100% {
     opacity: 1;
@@ -48,7 +48,7 @@ h1 {
 @-webkit-keyframes fadeIn {
   0% {
     opacity: 0;
-    transform: translateY(50%);
+    transform: translateY(2%);
   }
   100% {
     opacity: 1;
@@ -58,7 +58,7 @@ h1 {
 @-o-keyframes fadeIn {
   0% {
     opacity: 0;
-    transform: translateY(50%);
+    transform: translateY(2%);
   }
   100% {
     opacity: 1;
@@ -68,7 +68,7 @@ h1 {
 @-ms-keyframes fadeIn {
   0% {
     opacity: 0;
-    transform: translateY(50%);
+    transform: translateY(2%);
   }
   100% {
     opacity: 1;
