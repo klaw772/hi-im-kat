@@ -27,7 +27,7 @@ const NavBar: FC<unknown> = () => {
               as={Link}
               to="/kat-work"
             >
-              Work Experiences
+              Experience
             </Nav.Link>
             <Nav.Link
               className="mr-3 hvr-overline-from-left"

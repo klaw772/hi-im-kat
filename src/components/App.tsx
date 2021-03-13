@@ -2,7 +2,7 @@ import React, { FC } from "react";
 import { Switch, Route } from "react-router-dom";
 
 import NavBar from "./NavBar";
-import { WorkExperienceContainer } from "./WorkExperience/WorkExperienceContainer";
+import { ExperienceContainer } from "./Experience/ExperienceContainer";
 import { Intro } from "./Intro/Intro";
 import { SkillsContainer } from "./Skills/SkillsContainer";
 
@@ -29,7 +29,7 @@ const App: FC<unknown> = () => {
             <AboutOverview />
           </Route>
           <Route exact path="/kat-work">
-            <WorkExperienceContainer />
+            <ExperienceContainer />
           </Route>
           <Route exact path="/skills">
             <SkillsContainer />

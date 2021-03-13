@@ -1,6 +1,6 @@
 import React, { FC } from "react";
 import { ExperienceCarousel } from "./ExperienceCarousel";
 
-export const WorkExperienceContainer: FC<unknown> = () => {
+export const ExperienceContainer: FC<unknown> = () => {
   return <ExperienceCarousel />;
 };
