@@ -22,9 +22,6 @@ const App: FC<unknown> = () => {
           <Route exact path="/">
             <Intro />
           </Route>
-          <Route exact path="/project-index">
-            <p>Project Index</p>
-          </Route>
           <Route exact path="/about-kat">
             <AboutOverview />
           </Route>

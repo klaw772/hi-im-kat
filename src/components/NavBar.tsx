@@ -32,13 +32,6 @@ const NavBar: FC<unknown> = () => {
             <Nav.Link
               className="mr-3 hvr-overline-from-left"
               as={Link}
-              to="/project-index"
-            >
-              Project Work
-            </Nav.Link>
-            <Nav.Link
-              className="mr-3 hvr-overline-from-left"
-              as={Link}
               to="/skills"
             >
               Skills/Technologies
