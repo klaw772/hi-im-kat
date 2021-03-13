@@ -85,18 +85,52 @@ export const ExperienceCarousel: FC<unknown> = () => {
           </>
         )}
         {index === 1 && (
-          <div className="experienceDescriptionHeader">
-            <h1>New Jersey Parents Caucus</h1>
-            <h2>Volunteer Front End Developer</h2>
-            <h4>October 2020 - present</h4>
-          </div>
+          <>
+            <div className="experienceDescriptionHeader">
+              <h1>New Jersey Parents Caucus</h1>
+              <h2>Volunteer Front End Developer</h2>
+              <h4>October 2020 - present</h4>
+            </div>
+            <div className="experienceDescriptionDetails">
+              <ul>
+                <li>
+                  Currently contributing to the Online Parents' Empowerment
+                  Academy website, used by parents to sign up for classes,
+                  complete surveys, and receive training resources (React,
+                  Node.js, Firebase)
+                </li>
+                <li>
+                  Currently mentoring another front-end developer on the team,
+                  answering any questions and providing guidance on best
+                  practices and architecture decisions made for the project
+                </li>
+              </ul>
+            </div>
+          </>
         )}
         {index === 2 && (
-          <div className="experienceDescriptionHeader">
-            <h1>ezCater</h1>
-            <h2>Associate Software Engineer</h2>
-            <h4>July 2019 - April 2020</h4>
-          </div>
+          <>
+            <div className="experienceDescriptionHeader">
+              <h1>ezCater</h1>
+              <h2>Associate Software Engineer</h2>
+              <h4>July 2019 - April 2020</h4>
+            </div>
+            <div className="experienceDescriptionDetails">
+              <ul>
+                <li>
+                  Implemented full-stack features for the ezManage suite as part
+                  of a cross-functional team, enabling thousands of caterers to
+                  seamlessly keep track of submitted orders, view customer
+                  information, and manage and submit offline orders (React,
+                  GraphQL, Ruby on Rails)
+                </li>
+                <li>
+                  Participated in a pilot software development bootcamp with
+                  coursework in Ruby on Rails, React, and GraphQL
+                </li>
+              </ul>
+            </div>
+          </>
         )}
       </div>
     </>

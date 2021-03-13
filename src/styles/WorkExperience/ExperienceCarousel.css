@@ -9,15 +9,17 @@ p {
 }
 
 .experienceDescriptionHeader {
-  margin: 1.5em 0 1.5em 0;
+  margin-top: 1em;
   text-align: center;
+}
+
+.experienceDescriptionHeader h1 {
+  font-weight: 700;
 }
 
 .experienceDescriptionDetails {
   width: 80%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  margin: 2em auto 0 auto;
 }
 
 .experienceDescriptionDetails li {

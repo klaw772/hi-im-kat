@@ -6,7 +6,7 @@
   text-align: center;
 }
 
-h1 {
+.jumbotron-text h1 {
   margin-bottom: 1.5em;
   font-weight: 700;
 }
