@@ -14,61 +14,86 @@ export const ContactIcons = () => {
     <Row className="d-flex justify-content-center align-items-center">
       <Col
         xs={12}
-        sm={12}
-        md={12}
+        sm={6}
+        md={4}
         lg={2}
         className="d-flex justify-content-center align-items-center"
       >
-        <span className="icon">
-          <FaGithub />
+        <span className="iconSpan">
+          <FaGithub
+            className="icon"
+            onClick={() => {
+              window.open("https://github.com/klaw772", "_blank");
+            }}
+          />
           klaw772
         </span>
       </Col>
       <Col
         xs={12}
-        sm={12}
-        md={12}
+        sm={6}
+        md={4}
         lg={2}
         className="d-flex justify-content-center align-items-center"
       >
-        <span className="icon">
-          <FaLinkedin />
+        <span className="iconSpan">
+          <FaLinkedin
+            className="icon"
+            onClick={() => {
+              window.open("https://linkedin.com/in/kathleen-law", "_blank");
+            }}
+          />
           Kathleen Law
         </span>
       </Col>
       <Col
         xs={12}
-        sm={12}
-        md={12}
+        sm={6}
+        md={4}
         lg={2}
         className="d-flex justify-content-center align-items-center"
       >
-        <span className="icon">
-          <FaEnvelope />
+        <span className="iconSpan">
+          <FaEnvelope
+            className="icon"
+            onClick={() => {
+              window.open("mailto:KathleenMLaw1@gmail.com");
+            }}
+          />
           KathleenMLaw1@gmail.com
         </span>
       </Col>
       <Col
         xs={12}
-        sm={12}
-        md={12}
+        sm={6}
+        md={4}
         lg={2}
         className="d-flex justify-content-center align-items-center"
       >
-        <span className="icon">
-          <FaTwitter />
+        <span className="iconSpan">
+          <FaTwitter
+            className="icon"
+            onClick={() => {
+              window.open("https://twitter.com/KatLawDev", "_blank");
+            }}
+          />
           @KatLawDev
         </span>
       </Col>
       <Col
         xs={12}
-        sm={12}
-        md={12}
+        sm={6}
+        md={4}
         lg={2}
         className="d-flex justify-content-center align-items-center"
       >
-        <span className="icon">
-          <FaInstagram />
+        <span className="iconSpan">
+          <FaInstagram
+            className="icon"
+            onClick={() => {
+              window.open("https://instagram.com/kat_likes_to_read", "_blank");
+            }}
+          />
           @kat_likes_to_read
         </span>
       </Col>

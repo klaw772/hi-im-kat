@@ -1,6 +1,6 @@
 .contactContainer p {
   width: 80%;
-  margin: 0 auto 0 auto;
+  margin: 1em auto 1em auto;
 }
 
 .contactContainer {
@@ -8,6 +8,5 @@
 }
 
 .iconsContainer {
-  display: flex;
-  flex-direction: column;
+  margin-top: 5em;
 }

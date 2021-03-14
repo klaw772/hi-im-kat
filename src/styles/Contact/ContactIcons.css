@@ -1,6 +1,11 @@
-.icon {
-  margin: 0 auto 0 auto;
+.iconSpan {
+  margin: 0 auto 2em auto;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
+}
+
+.icon {
+  font-size: 5em;
+  cursor: pointer;
 }
