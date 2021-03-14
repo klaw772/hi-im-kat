@@ -29,11 +29,11 @@ export const SkillsContainer: FC<unknown> = () => {
   const languages: { language: string; title: string }[] = [
     { language: javascript, title: "JavaScript" },
     { language: typescript, title: "TypeScript" },
+    { language: php, title: "PHP" },
     { language: java, title: "Java" },
     { language: ruby, title: "Ruby" },
     { language: r, title: "R" },
     { language: python, title: "Python" },
-    { language: php, title: "PHP" },
   ];
   const frameworks: { framework: string; title: string }[] = [
     { framework: react, title: "React" },
@@ -54,7 +54,7 @@ export const SkillsContainer: FC<unknown> = () => {
   ];
 
   return (
-    <>
+    <div className="skillsContainer">
       <div className="skillsContainerIntro">
         <h1>Skills and Technologies</h1>
         <p>
@@ -74,6 +74,6 @@ export const SkillsContainer: FC<unknown> = () => {
       <Frameworks frameworkList={frameworks} />
       <Testing testingList={testing} />
       <Tools toolList={tools} />
-    </>
+    </div>
   );
 };
