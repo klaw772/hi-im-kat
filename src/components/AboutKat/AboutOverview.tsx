@@ -8,12 +8,16 @@ export const AboutOverview: FC<unknown> = () => {
     <div>
       <h1 className="aboutMeHeader">About Me</h1>
       <div className="buttonsRow">
-        <Button className="styledOverviewButton">Learning Interests</Button>
-        <Button className="styledOverviewButton">Books of Note</Button>
+        <Button className="styledOverviewButton hvr-grow">
+          Learning Interests
+        </Button>
+        <Button className="styledOverviewButton hvr-grow">Books of Note</Button>
       </div>
       <div className="buttonsRow">
-        <Button className="styledOverviewButton">Model-Building</Button>
-        <Button className="styledOverviewButton">Bertha</Button>
+        <Button className="styledOverviewButton hvr-grow">
+          Model-Building
+        </Button>
+        <Button className="styledOverviewButton hvr-grow">Bertha</Button>
       </div>
     </div>
   );

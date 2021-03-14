@@ -8,10 +8,11 @@ import { SkillsContainer } from "./Skills/SkillsContainer";
 
 import "../styles/App.css";
 import { AboutOverview } from "./AboutKat/AboutOverview";
+import { ContactContainer } from "./Contact/ContactContainer";
 
 const App: FC<unknown> = () => {
   return (
-    <div className="App">
+    <main className="App">
       <section>
         <header className="App-header">
           <NavBar />
@@ -31,9 +32,12 @@ const App: FC<unknown> = () => {
           <Route exact path="/skills">
             <SkillsContainer />
           </Route>
+          <Route exact path="/contact">
+            <ContactContainer />
+          </Route>
         </Switch>
       </section>
-    </div>
+    </main>
   );
 };
 

@@ -1,0 +1,13 @@
+.contactContainer p {
+  width: 80%;
+  margin: 0 auto 0 auto;
+}
+
+.contactContainer {
+  margin-top: 1em;
+}
+
+.iconsContainer {
+  display: flex;
+  flex-direction: column;
+}

@@ -6,6 +6,15 @@
   text-align: center;
 }
 
+h1 {
+  font-weight: 700;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
 .jumbotron-text h1 {
   margin-bottom: 1.5em;
   font-weight: 700;

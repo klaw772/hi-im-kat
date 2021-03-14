@@ -23,6 +23,8 @@ import { Frameworks } from "./Frameworks";
 import { Testing } from "./Testing";
 import { Tools } from "./Tools";
 
+import "../../styles/Skills/SkillsContainer.css";
+
 export const SkillsContainer: FC<unknown> = () => {
   const languages: { language: string; title: string }[] = [
     { language: javascript, title: "JavaScript" },
@@ -53,6 +55,21 @@ export const SkillsContainer: FC<unknown> = () => {
 
   return (
     <>
+      <div className="skillsContainerIntro">
+        <h1>Skills and Technologies</h1>
+        <p>
+          This is an ever-growing list of tools and technologies that I have
+          experience with. More information can be found on my{" "}
+          <a
+            href="https://linkedin.com/in/kathleen-law"
+            target="__blank"
+            style={{ textDecoration: "none" }}
+          >
+            LinkedIn
+          </a>
+          .
+        </p>
+      </div>
       <Languages languageList={languages} />
       <Frameworks frameworkList={frameworks} />
       <Testing testingList={testing} />

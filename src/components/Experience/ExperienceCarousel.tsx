@@ -4,7 +4,7 @@ import ezcater_logo from "../../assets/experienceLogos/ezcater.jpg";
 import acquia_logo from "../../assets/experienceLogos/acquia.png";
 import njpc_logo from "../../assets/experienceLogos/njpc.png";
 
-import "../../styles/WorkExperience/ExperienceCarousel.css";
+import "../../styles/Experience/ExperienceCarousel.css";
 
 export const ExperienceCarousel: FC<unknown> = () => {
   const [index, setIndex] = useState(0);
@@ -18,6 +18,20 @@ export const ExperienceCarousel: FC<unknown> = () => {
 
   return (
     <>
+      <div className="experienceIntro">
+        <h1>Recent Experience</h1>
+        <p>
+          More information can be found on my{" "}
+          <a
+            href="https://linkedin.com/in/kathleen-law"
+            target="__blank"
+            style={{ textDecoration: "none" }}
+          >
+            LinkedIn
+          </a>
+          .
+        </p>
+      </div>
       <Carousel
         activeIndex={index}
         onSelect={handleSelect}

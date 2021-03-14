@@ -16,7 +16,7 @@ export const Intro: FC<unknown> = () => {
           </p>
           <p>Thanks for dropping by!</p>
           <div className="d-flex justify-content-center align-items-center">
-            <img className="kat-avatar" src={kat} alt="Kat" />
+            <img className="kat-avatar" src={kat} alt="Pic of Kat" />
           </div>
         </div>
       </Container>
