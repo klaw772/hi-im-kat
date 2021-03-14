@@ -59,7 +59,8 @@ export const SkillsContainer: FC<unknown> = () => {
         <h1>Skills and Technologies</h1>
         <p>
           This is an ever-growing list of tools and technologies that I have
-          experience with. More information can be found on my{" "}
+          experience with. More information (and additional skills) can be found
+          on my{" "}
           <a
             href="https://linkedin.com/in/kathleen-law"
             target="__blank"
