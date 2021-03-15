@@ -21,7 +21,7 @@ export const ContactIcons = () => {
       >
         <span className="iconSpan">
           <FaGithub
-            className="icon"
+            className="icon hvr-grow"
             onClick={() => {
               window.open("https://github.com/klaw772", "_blank");
             }}
@@ -38,7 +38,7 @@ export const ContactIcons = () => {
       >
         <span className="iconSpan">
           <FaLinkedin
-            className="icon"
+            className="icon hvr-grow"
             onClick={() => {
               window.open("https://linkedin.com/in/kathleen-law", "_blank");
             }}
@@ -55,7 +55,7 @@ export const ContactIcons = () => {
       >
         <span className="iconSpan">
           <FaEnvelope
-            className="icon"
+            className="icon hvr-grow"
             onClick={() => {
               window.open("mailto:KathleenMLaw1@gmail.com");
             }}
@@ -72,7 +72,7 @@ export const ContactIcons = () => {
       >
         <span className="iconSpan">
           <FaTwitter
-            className="icon"
+            className="icon hvr-grow"
             onClick={() => {
               window.open("https://twitter.com/KatLawDev", "_blank");
             }}
@@ -89,7 +89,7 @@ export const ContactIcons = () => {
       >
         <span className="iconSpan">
           <FaInstagram
-            className="icon"
+            className="icon hvr-grow"
             onClick={() => {
               window.open("https://instagram.com/kat_likes_to_read", "_blank");
             }}

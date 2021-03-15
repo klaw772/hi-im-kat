@@ -23,10 +23,10 @@ const App: FC<unknown> = () => {
           <Route exact path="/">
             <Intro />
           </Route>
-          <Route exact path="/about-kat">
+          <Route exact path="/about-me">
             <AboutOverview />
           </Route>
-          <Route exact path="/kat-work">
+          <Route exact path="/recent-experience">
             <ExperienceContainer />
           </Route>
           <Route exact path="/skills">

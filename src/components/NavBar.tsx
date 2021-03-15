@@ -18,14 +18,14 @@ const NavBar: FC<unknown> = () => {
             <Nav.Link
               className="mr-3 hvr-overline-from-left"
               as={Link}
-              to="/about-kat"
+              to="/about-me"
             >
-              About Kat
+              About Me
             </Nav.Link>
             <Nav.Link
               className="mr-3 hvr-overline-from-left"
               as={Link}
-              to="/kat-work"
+              to="/recent-experience"
             >
               Recent Experience
             </Nav.Link>
