@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f4bec0c5d267b5b72e13a48f0c7a1f1a",
+    "revision": "136b18a0af51a5775c968318ce4cf505",
     "url": "/hi-im-kat/index.html"
   },
   {
-    "revision": "a7453bc5ab0776d06f43",
-    "url": "/hi-im-kat/static/css/2.f3cffc9e.chunk.css"
+    "revision": "e712c9847a13b5a276f2",
+    "url": "/hi-im-kat/static/css/2.a5f06b7f.chunk.css"
   },
   {
-    "revision": "6f0ff3209aea7a812d23",
-    "url": "/hi-im-kat/static/css/main.b0e999c0.chunk.css"
+    "revision": "664658c86daa27ce3644",
+    "url": "/hi-im-kat/static/css/main.200a28aa.chunk.css"
   },
   {
-    "revision": "a7453bc5ab0776d06f43",
-    "url": "/hi-im-kat/static/js/2.41e4dc09.chunk.js"
+    "revision": "e712c9847a13b5a276f2",
+    "url": "/hi-im-kat/static/js/2.8577f1fe.chunk.js"
   },
   {
-    "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/hi-im-kat/static/js/2.41e4dc09.chunk.js.LICENSE.txt"
+    "revision": "29eb69a08ea4198f7b46e1db8a3d5045",
+    "url": "/hi-im-kat/static/js/2.8577f1fe.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6f0ff3209aea7a812d23",
-    "url": "/hi-im-kat/static/js/main.e7eb684b.chunk.js"
+    "revision": "664658c86daa27ce3644",
+    "url": "/hi-im-kat/static/js/main.d2a6e8a3.chunk.js"
   },
   {
     "revision": "de032398156ee75ce340",
@@ -32,8 +32,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/hi-im-kat/static/media/acquia.46b66266.png"
   },
   {
+    "revision": "52db6e05d32597431f3935eb66e73005",
+    "url": "/hi-im-kat/static/media/bertha.52db6e05.jpeg"
+  },
+  {
     "revision": "34ea2932a841396151ef733ea8a0fc03",
     "url": "/hi-im-kat/static/media/cypress.34ea2932.png"
+  },
+  {
+    "revision": "2103c44598b4a6454d3df6e57b3d1415",
+    "url": "/hi-im-kat/static/media/docker.2103c445.png"
   },
   {
     "revision": "f0b21340280e8a28e64e0117673e49fb",
@@ -58,6 +66,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "de88bb4d93d097dad5190e06c4f48ce2",
     "url": "/hi-im-kat/static/media/kat.de88bb4d.png"
+  },
+  {
+    "revision": "53b98c4d2a7968ac2ddbf8a5d9f0e4aa",
+    "url": "/hi-im-kat/static/media/legoPiano.53b98c4d.jpg"
+  },
+  {
+    "revision": "a066ab2a340b00ab43bd609c9da7b2e2",
+    "url": "/hi-im-kat/static/media/njpc.a066ab2a.png"
   },
   {
     "revision": "dc199ecc9e90e4bc7e9ed9b31e3c2b5f",
