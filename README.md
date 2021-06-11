@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# Kat.Dev
+# KatLaw.io
 Hi! This is my personal website. I wanted to make this site to not only showcase some of my experience with front-end development, but also define one central place for me to chat a little bit about myself and things that excite me. :)
 
 ## For Local Development
