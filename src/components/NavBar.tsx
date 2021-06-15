@@ -3,14 +3,13 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import "../styles/NavBar.css";
 import { Link } from "react-router-dom";
-import cheese from "../assets/cheese2.png";
 
 const NavBar: FC<unknown> = () => {
   return (
     <div>
       <Navbar expand="lg">
         <Navbar.Brand href="/hi-im-kat">
-          <img src={cheese} alt="cheese-wedge" />
+          <strong>KL</strong>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
