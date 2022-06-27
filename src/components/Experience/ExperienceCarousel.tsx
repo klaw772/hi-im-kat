@@ -107,7 +107,7 @@ export const ExperienceCarousel: FC<unknown> = () => {
             <div className="experienceDescriptionHeader">
               <h1>New Jersey Parents Caucus</h1>
               <h2>Volunteer Front End Developer</h2>
-              <h4>October 2020 - present</h4>
+              <h4>October 2020 - February 2021</h4>
             </div>
             <div className="experienceDescriptionDetails">
               <ul>
