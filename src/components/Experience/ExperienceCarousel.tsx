@@ -70,19 +70,30 @@ export const ExperienceCarousel: FC<unknown> = () => {
             <div className="experienceDescriptionDetails">
               <ul>
                 <li>
-                 Currently contributing to the Customer Experience API and UI teams as the department's first full-stack engineer, supporting Acquia's Cloud Platform to ensure successful hosting, maintenance, and overall development workflow of Drupal sites (Angular, PHP)
+                  Currently contributing to the Customer Experience API and UI
+                  teams as the department's first full-stack engineer,
+                  supporting Acquia's Cloud Platform to ensure successful
+                  hosting, maintenance, and overall development workflow of
+                  Drupal sites (Angular, PHP)
                 </li>
                 <li>
-                  Currently leading efforts to improve the DevOps process for a monorepo shared by multiple teams (Angular)
+                  Currently leading efforts to improve the DevOps process for a
+                  monorepo shared by multiple teams (Angular)
                 </li>
                 <li>
-                  Collaborated with the User Experience team to iterate on the Acquia Design System, aiming to unify user interfaces across the engineering organization (Angular, HTML/CSS)
+                  Collaborated with the User Experience team to iterate on the
+                  Acquia Design System, aiming to unify user interfaces across
+                  the engineering organization (Angular, HTML/CSS)
                 </li>
                 <li>
-                  Enhanced Acquia's CLI tool to improve the experience of developers and enterprise customers when setting up non-legacy email services for Drupal sites (PHP)
+                  Enhanced Acquia's CLI tool to improve the experience of
+                  developers and enterprise customers when setting up non-legacy
+                  email services for Drupal sites (PHP)
                 </li>
                 <li>
-                  Participated in the Research and Development Culture Committee, which aims to promote happiness and satisfaction throughout the R\&D organization
+                  Participated in the Research and Development Culture
+                  Committee, which aims to promote happiness and satisfaction
+                  throughout the R&D organization
                 </li>
                 <li>
                   Created tooling to assist in speeding up the process of
@@ -90,7 +101,9 @@ export const ExperienceCarousel: FC<unknown> = () => {
                   Drupal, Linux shell scripting)
                 </li>
                 <li>
-                  Developed a proof-of-concept leading to the implementation and launch of Acquia's newest product, Code Studio (Linux shell scripting, CI/CD)
+                  Developed a proof-of-concept leading to the implementation and
+                  launch of Acquia's newest product, Code Studio (Linux shell
+                  scripting, CI/CD)
                 </li>
                 <li>
                   Contributed to a new full-stack project with additional
@@ -112,15 +125,15 @@ export const ExperienceCarousel: FC<unknown> = () => {
             <div className="experienceDescriptionDetails">
               <ul>
                 <li>
-                  Currently contributing to the Online Parents' Empowerment
-                  Academy website, used by parents to sign up for classes,
-                  complete surveys, and receive training resources (React,
-                  Node.js, Firebase)
+                  Contributed to the Online Parents' Empowerment Academy
+                  website, used by parents to sign up for classes, complete
+                  surveys, and receive training resources (React, Node.js,
+                  Firebase)
                 </li>
                 <li>
-                  Currently mentoring another front-end developer on the team,
-                  answering any questions and providing guidance on best
-                  practices and architecture decisions made for the project
+                  Mentored another front-end developer on the team, answering
+                  any questions and providing guidance on best practices and
+                  architecture decisions made for the project
                 </li>
               </ul>
             </div>
