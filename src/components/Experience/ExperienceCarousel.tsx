@@ -64,20 +64,25 @@ export const ExperienceCarousel: FC<unknown> = () => {
           <>
             <div className="experienceDescriptionHeader">
               <h1>Acquia</h1>
-              <h2>Associate Software Engineer</h2>
+              <h2>Software Engineer</h2>
               <h4>May 2020 - present</h4>
             </div>
             <div className="experienceDescriptionDetails">
               <ul>
                 <li>
-                  Currently contributing to the Customer Experience API, used by
-                  Acquia's Cloud Platform to support the hosting, maintenance,
-                  and overall development workflow of Drupal sites (PHP)
+                 Currently contributing to the Customer Experience API and UI teams as the department's first full-stack engineer, supporting Acquia's Cloud Platform to ensure successful hosting, maintenance, and overall development workflow of Drupal sites (Angular, PHP)
                 </li>
                 <li>
-                  Currently participating in the Research and Development
-                  Culture Committee, which aims to promote happiness and
-                  satisfaction throughout the R&D organization
+                  Currently leading efforts to improve the DevOps process for a monorepo shared by multiple teams (Angular)
+                </li>
+                <li>
+                  Collaborated with the User Experience team to iterate on the Acquia Design System, aiming to unify user interfaces across the engineering organization (Angular, HTML/CSS)
+                </li>
+                <li>
+                  Enhanced Acquia's CLI tool to improve the experience of developers and enterprise customers when setting up non-legacy email services for Drupal sites (PHP)
+                </li>
+                <li>
+                  Participated in the Research and Development Culture Committee, which aims to promote happiness and satisfaction throughout the R\&D organization
                 </li>
                 <li>
                   Created tooling to assist in speeding up the process of
@@ -85,14 +90,13 @@ export const ExperienceCarousel: FC<unknown> = () => {
                   Drupal, Linux shell scripting)
                 </li>
                 <li>
+                  Developed a proof-of-concept leading to the implementation and launch of Acquia's newest product, Code Studio (Linux shell scripting, CI/CD)
+                </li>
+                <li>
                   Contributed to a new full-stack project with additional
                   microservices from the ground up (React, GraphQL, NodeJS)
                   while mentoring an intern, who also completed tickets as part
                   of the team
-                </li>
-                <li>
-                  Contributed to a proof-of-concept to improve the
-                  out-of-the-box developer experience
                 </li>
               </ul>
             </div>
