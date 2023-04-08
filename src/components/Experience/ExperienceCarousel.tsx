@@ -3,6 +3,7 @@ import { Carousel } from "react-bootstrap";
 import ezcater_logo from "../../assets/experienceLogos/ezcater.jpg";
 import acquia_logo from "../../assets/experienceLogos/acquia.png";
 import njpc_logo from "../../assets/experienceLogos/njpc.png";
+import multiverse_logo from "../../assets/experienceLogos/multiverse.jpg";
 
 import "../../styles/Experience/ExperienceCarousel.css";
 
@@ -40,6 +41,13 @@ export const ExperienceCarousel: FC<unknown> = () => {
         <Carousel.Item className="carousel-item">
           <img
             className="d-block w-50 ml-auto mr-auto"
+            src={multiverse_logo}
+            alt="Multiverse"
+          />
+        </Carousel.Item>
+        <Carousel.Item className="carousel-item">
+          <img
+            className="d-block w-50 ml-auto mr-auto"
             src={acquia_logo}
             alt="Acquia"
           />
@@ -63,22 +71,44 @@ export const ExperienceCarousel: FC<unknown> = () => {
         {index === 0 && (
           <>
             <div className="experienceDescriptionHeader">
-              <h1>Acquia</h1>
-              <h2>Software Engineer</h2>
-              <h4>May 2020 - present</h4>
+              <h1>Multiverse</h1>
+              <h2>Software Engineering Coach</h2>
             </div>
             <div className="experienceDescriptionDetails">
               <ul>
                 <li>
-                  Currently contributing to the Customer Experience API and UI
-                  teams as the department's first full-stack engineer,
-                  supporting Acquia's Cloud Platform to ensure successful
-                  hosting, maintenance, and overall development workflow of
-                  Drupal sites (Angular, PHP)
+                  Currently teaching software engineering apprentices a high-quality,
+                  industry-standard set of full-stack web development skills to ensure their success at their employer and beyond
+                </li>
+              </ul>
+            </div>
+          </>
+        )}
+        {index === 1 && (
+          <>
+            <div className="experienceDescriptionHeader">
+              <h1>Acquia</h1>
+              <h2>
+                Associate Software Engineer to Software Engineer to Engineering
+                Manager
+              </h2>
+            </div>
+            <div className="experienceDescriptionDetails">
+              <ul>
+                <li>
+                  Led a globally distributed team to deliver new features and
+                  addi- tional stability for Code Studio, Acquia's solution for
+                  automating DevOps processes for Drupal sites
                 </li>
                 <li>
-                  Currently leading efforts to improve the DevOps process for a
-                  monorepo shared by multiple teams (Angular)
+                  Contributed to the Customer Experience API and UI teams as the
+                  department's first full-stack engineer, supporting Acquia's
+                  Cloud Platform to ensure successful hosting, maintenance, and
+                  overall development workflow of Drupal sites (Angular, PHP)
+                </li>
+                <li>
+                  Led efforts to improve the DevOps process for a monorepo
+                  shared by multiple teams (Angular)
                 </li>
                 <li>
                   Collaborated with the User Experience team to iterate on the
@@ -115,12 +145,11 @@ export const ExperienceCarousel: FC<unknown> = () => {
             </div>
           </>
         )}
-        {index === 1 && (
+        {index === 2 && (
           <>
             <div className="experienceDescriptionHeader">
               <h1>New Jersey Parents Caucus</h1>
               <h2>Volunteer Front End Developer</h2>
-              <h4>October 2020 - February 2021</h4>
             </div>
             <div className="experienceDescriptionDetails">
               <ul>
@@ -139,12 +168,11 @@ export const ExperienceCarousel: FC<unknown> = () => {
             </div>
           </>
         )}
-        {index === 2 && (
+        {index === 3 && (
           <>
             <div className="experienceDescriptionHeader">
               <h1>ezCater</h1>
               <h2>Associate Software Engineer</h2>
-              <h4>July 2019 - April 2020</h4>
             </div>
             <div className="experienceDescriptionDetails">
               <ul>
