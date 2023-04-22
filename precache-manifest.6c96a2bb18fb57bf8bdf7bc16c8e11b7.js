@@ -1,35 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a5280822c8c10147e28da351a1059dee",
+    "revision": "68bcdefe2ff0f64075adf2b8d99ab2c9",
     "url": "/hi-im-kat/index.html"
   },
   {
-    "revision": "f7e439ac712c33e95258",
+    "revision": "43636591c9eb293e20e3",
     "url": "/hi-im-kat/static/css/2.a5f06b7f.chunk.css"
   },
   {
-    "revision": "a9d80013b0e5dbf1eb18",
+    "revision": "538fefdda86bfce33b7c",
     "url": "/hi-im-kat/static/css/main.1d657af7.chunk.css"
   },
   {
-    "revision": "f7e439ac712c33e95258",
-    "url": "/hi-im-kat/static/js/2.080edbec.chunk.js"
+    "revision": "43636591c9eb293e20e3",
+    "url": "/hi-im-kat/static/js/2.31bae160.chunk.js"
   },
   {
     "revision": "29eb69a08ea4198f7b46e1db8a3d5045",
-    "url": "/hi-im-kat/static/js/2.080edbec.chunk.js.LICENSE.txt"
+    "url": "/hi-im-kat/static/js/2.31bae160.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a9d80013b0e5dbf1eb18",
-    "url": "/hi-im-kat/static/js/main.a76741ac.chunk.js"
+    "revision": "538fefdda86bfce33b7c",
+    "url": "/hi-im-kat/static/js/main.3eeef561.chunk.js"
   },
   {
     "revision": "de032398156ee75ce340",
     "url": "/hi-im-kat/static/js/runtime-main.c55b7369.js"
   },
   {
-    "revision": "46b6626676309da96c65c4a11b0843d9",
-    "url": "/hi-im-kat/static/media/acquia.46b66266.png"
+    "revision": "24aea7c2fb72288e85284a3f1afafaea",
+    "url": "/hi-im-kat/static/media/acquia.24aea7c2.png"
   },
   {
     "revision": "52db6e05d32597431f3935eb66e73005",
@@ -70,6 +70,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "53b98c4d2a7968ac2ddbf8a5d9f0e4aa",
     "url": "/hi-im-kat/static/media/legoPiano.53b98c4d.jpg"
+  },
+  {
+    "revision": "56f14055d13b444daa6368a6bddec3b2",
+    "url": "/hi-im-kat/static/media/multiverse.56f14055.jpg"
   },
   {
     "revision": "a066ab2a340b00ab43bd609c9da7b2e2",
