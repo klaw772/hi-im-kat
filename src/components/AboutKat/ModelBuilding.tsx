@@ -48,7 +48,7 @@ export const ModelBuilding: FC<unknown> = () => {
         <img
           src={legoPiano}
           alt="Completed Lego Grand Piano set"
-          className="d-block w-50 ml-auto mr-auto mb-3"
+          className="d-block w-50 mx-auto mb-3"
         />
       </div>
     </div>

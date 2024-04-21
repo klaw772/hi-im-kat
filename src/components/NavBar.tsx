@@ -13,32 +13,31 @@ const NavBar: FC<unknown> = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse
             id="basic-navbar-nav"
-            className="justify-content-end"
           >
-            <Nav className="ml-auto">
+            <Nav className="ms-auto">
               <Nav.Link
-                className="mr-3 hvr-overline-from-left"
+                className="me-3 hvr-overline-from-left"
                 as={Link}
                 to="/about-me"
               >
                 About Me
               </Nav.Link>
               <Nav.Link
-                className="mr-3 hvr-overline-from-left"
+                className="me-3 hvr-overline-from-left"
                 as={Link}
                 to="/recent-experience"
               >
                 Recent Experience
               </Nav.Link>
               <Nav.Link
-                className="mr-3 hvr-overline-from-left"
+                className="me-3 hvr-overline-from-left"
                 as={Link}
                 to="/skills"
               >
                 Skills/Technologies
               </Nav.Link>
               <Nav.Link
-                className="mr-3 hvr-overline-from-left"
+                className="me-3 hvr-overline-from-left"
                 as={Link}
                 to="/contact"
               >

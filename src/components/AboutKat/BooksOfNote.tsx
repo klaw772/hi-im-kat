@@ -6,7 +6,7 @@ export const BooksOfNote: FC<unknown> = () => {
     <div>
       <p className="text-center">
         I absolutely LOVE to read. Some of my favorite genres include:
-        <ul className="text-left book-list">
+        <ul className="text-start book-list">
           <li>Tech and big data</li>
           <li>Psychology and mental health</li>
           <li>Thriller and horror</li>

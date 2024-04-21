@@ -13,7 +13,7 @@ export const LearningInterests: FC<unknown> = () => {
       <p className="text-center">
         Some other subjects that I would love to learn more about include, but
         definitely are not limited to:
-        <ul className="w-50 text-left interests-list">
+        <ul className="w-50 text-start interests-list">
           <li>
             AWS (I am currently taking a course to attain a Cloud Practitioner
             certificate){" "}

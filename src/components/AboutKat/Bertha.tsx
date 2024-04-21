@@ -15,7 +15,7 @@ export const Bertha: FC<unknown> = () => {
         <img
           src={bertha}
           alt="Bertha the cat"
-          className="d-block w-50 ml-auto mr-auto mb-3"
+          className="d-block w-50 mx-auto mb-3"
         />
       </div>
     </div>

@@ -41,28 +41,28 @@ export const ExperienceCarousel: FC<unknown> = () => {
       >
         <Carousel.Item className="carousel-item">
           <img
-            className="d-block w-50 ml-auto mr-auto"
+            className="d-block w-50 mx-auto"
             src={multiverse_logo}
             alt="Multiverse"
           />
         </Carousel.Item>
         <Carousel.Item className="carousel-item">
           <img
-            className="d-block w-50 ml-auto mr-auto"
+            className="d-block w-50 mx-auto"
             src={acquia_logo}
             alt="Acquia"
           />
         </Carousel.Item>
         <Carousel.Item className="carousel-item">
           <img
-            className="d-block w-50 ml-auto mr-auto"
+            className="d-block w-50 mx-auto"
             src={njpc_logo}
             alt="New Jersey Parents Caucus"
           />
         </Carousel.Item>
         <Carousel.Item className="carousel-item">
           <img
-            className="d-block w-50 ml-auto mr-auto"
+            className="d-block w-50 mx-auto"
             src={ezcater_logo}
             alt="ezCater"
           />
