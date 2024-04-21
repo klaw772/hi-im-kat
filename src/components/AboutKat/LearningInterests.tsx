@@ -1,21 +1,19 @@
 import React, { FC } from "react";
 import { Link } from "react-router-dom";
+import "../../styles/AboutKat/LearningInterests.css"
 
 export const LearningInterests: FC<unknown> = () => {
   return (
     <>
-      <p>
-        As a software engineer, I consider myself to be a lifelong avid learner.
-        While I have accepted that it is not possible to be an expert in every
-        facet of software, I am very determined to dip a toe (or a leg) into as
-        many areas across the field as I can. A growing list of the tools and
-        tech that I work more extensively with can be found on the{" "}
-        <Link to="/skills">Skills and Technology</Link> section of this site.
+      <p className="text-center">
+        A growing list of the tools that I work more extensively with can be
+        found on the <Link to="/skills">Skills and Technology</Link> section of
+        this site.
       </p>
-      <p>
+      <p className="text-center">
         Some other subjects that I would love to learn more about include, but
         definitely are not limited to:
-        <ul>
+        <ul className="w-50 text-left interests-list">
           <li>
             AWS (I am currently taking a course to attain a Cloud Practitioner
             certificate){" "}

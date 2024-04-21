@@ -36,5 +36,6 @@ h4 {
 }
 
 .aboutMeDetailBlock {
-  margin: 2em 0 2em 0;
+  width: 80%;
+  margin: 4em auto 2em auto;
 }

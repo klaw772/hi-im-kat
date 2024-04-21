@@ -3,7 +3,7 @@ import legoPiano from "../../assets/legoPiano.jpg";
 
 export const ModelBuilding: FC<unknown> = () => {
   return (
-    <>
+    <div className="text-center w-75 m-auto">
       <p>
         At the beginning of 2020, when the world began to shut down because of
         COVID-19, I started building model sets. My first model set was made out
@@ -51,10 +51,6 @@ export const ModelBuilding: FC<unknown> = () => {
           className="d-block w-50 ml-auto mr-auto mb-3"
         />
       </div>
-      <p>
-        I am currently gathering all of the models I have built and taking
-        pictures of them to post here. Stay tuned!
-      </p>
-    </>
+    </div>
   );
 };

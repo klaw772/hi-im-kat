@@ -62,7 +62,7 @@ export const SkillsContainer: FC<unknown> = () => {
           experience with. More information (and additional skills) can be found
           on my{" "}
           <a
-            href="https://linkedin.com/in/kathleen-law"
+            href="https://linkedin.com/in/kat-law"
             target="__blank"
             style={{ textDecoration: "none" }}
           >

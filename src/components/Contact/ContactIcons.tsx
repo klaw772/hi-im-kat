@@ -3,8 +3,6 @@ import { Col, Row } from "react-bootstrap";
 import {
   FaGithub,
   FaEnvelope,
-  FaInstagram,
-  FaTwitter,
   FaLinkedin,
 } from "react-icons/fa";
 import "../../styles/Contact/ContactIcons.css";
@@ -40,10 +38,10 @@ export const ContactIcons = () => {
           <FaLinkedin
             className="icon hvr-grow"
             onClick={() => {
-              window.open("https://linkedin.com/in/kathleen-law", "_blank");
+              window.open("https://linkedin.com/in/kat-law", "_blank");
             }}
           />
-          Kathleen Law
+          Kat Law
         </span>
       </Col>
       <Col
@@ -61,40 +59,6 @@ export const ContactIcons = () => {
             }}
           />
           KathleenMLaw1@gmail.com
-        </span>
-      </Col>
-      <Col
-        xs={12}
-        sm={6}
-        md={4}
-        lg={2}
-        className="d-flex justify-content-center align-items-center"
-      >
-        <span className="iconSpan">
-          <FaTwitter
-            className="icon hvr-grow"
-            onClick={() => {
-              window.open("https://twitter.com/KatLawDev", "_blank");
-            }}
-          />
-          @KatLawDev
-        </span>
-      </Col>
-      <Col
-        xs={12}
-        sm={6}
-        md={4}
-        lg={2}
-        className="d-flex justify-content-center align-items-center"
-      >
-        <span className="iconSpan">
-          <FaInstagram
-            className="icon hvr-grow"
-            onClick={() => {
-              window.open("https://instagram.com/kat_likes_to_read", "_blank");
-            }}
-          />
-          @kat_likes_to_read
         </span>
       </Col>
     </Row>

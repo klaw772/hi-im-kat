@@ -1,14 +1,14 @@
 import React, { FC } from "react";
-import { Jumbotron, Container } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import kat from "../../assets/kat.png";
 
 import "../../styles/Intro/Intro.css";
 
 export const Intro: FC<unknown> = () => {
   return (
-    <Jumbotron fluid className="intro-jumbotron">
-      <Container className="my-5">
-        <div className="jumbotron-text fade-in">
+    <div>
+      <Container className="intro-jumbotron">
+        <div className="fade-in jumbotron-text">
           <h1> Hi, I'm Kat.</h1>
           <p>
             I am a software engineer, a bibliophile, and a connoisseur of some
@@ -20,6 +20,6 @@ export const Intro: FC<unknown> = () => {
           </div>
         </div>
       </Container>
-    </Jumbotron>
+    </div>
   );
 };

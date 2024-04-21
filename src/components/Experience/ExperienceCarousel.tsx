@@ -24,7 +24,7 @@ export const ExperienceCarousel: FC<unknown> = () => {
         <p>
           More information can be found on my{" "}
           <a
-            href="https://linkedin.com/in/kathleen-law"
+            href="https://linkedin.com/in/kat-law"
             target="__blank"
             style={{ textDecoration: "none" }}
           >
@@ -35,6 +35,7 @@ export const ExperienceCarousel: FC<unknown> = () => {
       </div>
       <Carousel
         activeIndex={index}
+        interval={null}
         onSelect={handleSelect}
         className="experienceCarousel"
       >
@@ -72,13 +73,27 @@ export const ExperienceCarousel: FC<unknown> = () => {
           <>
             <div className="experienceDescriptionHeader">
               <h1>Multiverse</h1>
-              <h2>Software Engineering Coach</h2>
+              <h2>Software Engineering Instructor</h2>
             </div>
             <div className="experienceDescriptionDetails">
               <ul>
                 <li>
-                  Currently teaching software engineering apprentices a high-quality,
-                  industry-standard set of full-stack web development skills to ensure their success at their employer and beyond
+                  Teaching software engineering apprentices a high-quality,
+                  industry-standard set of full-stack web development skills to
+                  ensure their success at their employer and beyond
+                </li>
+                <li>
+                  Spearheading initiatives to make the software engineering
+                  coaching experience more delightful and efficient, including
+                  evangelizing GitHub Classroom through a global professional
+                  development session, as well as creating language-agnostic
+                  resources to support apprentices' continued learning while
+                  they're on the job
+                </li>
+                <li>
+                  Codifying processes used to effectively facilitate bootcamp,
+                  the first 12 weeks of instruction during the US software
+                  engineering apprenticeship program
                 </li>
               </ul>
             </div>
@@ -149,10 +164,17 @@ export const ExperienceCarousel: FC<unknown> = () => {
           <>
             <div className="experienceDescriptionHeader">
               <h1>New Jersey Parents Caucus</h1>
-              <h2>Volunteer Front End Developer</h2>
+              <h2>Volunteer Front End Developer to Volunteer Technical Lead</h2>
             </div>
             <div className="experienceDescriptionDetails">
               <ul>
+                <li>
+                  Led architecture decisions and development efforts of a
+                  centralized hub containing various resources related to
+                  services provided by the New Jersey Parents Caucus, including
+                  class registration, mental health evaluation, family intake,
+                  and referral database management/viewing
+                </li>
                 <li>
                   Contributed to the Online Parents' Empowerment Academy
                   website, used by parents to sign up for classes, complete

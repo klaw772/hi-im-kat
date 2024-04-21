@@ -3,7 +3,7 @@ import bertha from "../../assets/bertha.jpeg";
 
 export const Bertha: FC<unknown> = () => {
   return (
-    <>
+    <div className="text-center w-75 m-auto">
       <p>
         I have a cat. Her name is Bertha. She is incredibly friendly and very
         curious. She sniffs anything that is placed in front of her nose - I
@@ -18,10 +18,6 @@ export const Bertha: FC<unknown> = () => {
           className="d-block w-50 ml-auto mr-auto mb-3"
         />
       </div>
-      <p>
-        Rest assured, I will make sure to add more pictures of Bertha to this
-        site soon.
-      </p>
-    </>
+    </div>
   );
 };
