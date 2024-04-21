@@ -1,5 +1,5 @@
 import React, { FC, useState } from "react";
-import { Carousel } from "react-bootstrap";
+import Carousel from "react-bootstrap/Carousel";
 import ezcater_logo from "../../assets/experienceLogos/ezcater.jpg";
 import acquia_logo from "../../assets/experienceLogos/acquia.png";
 import njpc_logo from "../../assets/experienceLogos/njpc.png";

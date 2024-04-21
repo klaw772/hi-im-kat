@@ -8,7 +8,7 @@ const App: FC<unknown> = () => {
   return (
     <main className="App">
       <section>
-        <header className="App-header">
+        <header>
           <NavBar />
         </header>
       </section>

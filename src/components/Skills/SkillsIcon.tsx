@@ -19,7 +19,7 @@ export const SkillsIcon: FC<SkillsIconProps> = ({ tech, title }) => {
         className="hvr-bounce-in my-5"
         src={tech}
         alt={`${title}`}
-        width="75%"
+        width="50%"
       />
     </OverlayTrigger>
   );
